@@ -34,7 +34,7 @@ const Page = () => {
             />
             <div className="absolute  mt-16 sm:mt-10 z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
               <p className="lg:text-4xl text-3xl font-bold py-2 text-center capitalize">
-                FRESH BETON INDONESIA X FARRACON PRECAST INDUSTRI
+                PRECAST
               </p>
             </div>
           </div>

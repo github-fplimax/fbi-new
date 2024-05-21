@@ -1,0 +1,40 @@
+{
+  "name": "landing-page-fbi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.12.1",
+    "@phosphor-icons/react": "^2.0.15",
+    "@radix-ui/react-scroll-area": "^1.0.5",
+    "@react-google-maps/api": "^2.19.2",
+    "aos": "^2.3.4",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.315.0",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-responsive-carousel": "^3.2.23",
+    "react-social-media-embed": "^2.5.13",
+    "sharp": "^0.33.3",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7",
+    "translate": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-slick": "^0.23.13",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}

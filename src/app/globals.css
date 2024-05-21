@@ -1,0 +1,227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.twolines {
+  width: 100%; /* Pastikan elemen mengambil lebar penuh */
+  display: block; /* Pastikan elemen adalah blok sehingga width berlaku */
+  white-space: normal; /* Izinkan pemisahan baris normal */
+  word-break: break-word; /* Paksa pemisahan kata jika terlalu panjang */
+  overflow-wrap: break-word; /* Paksa pemisahan kata jika terlalu panjang */
+}
+
+
+
+.disableRightClick {
+  pointer-events: none;
+  user-select: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-image {
+    height: 50vh; /* Change this value as needed */
+  }
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  position: relative;
+  animation: rotate 1s linear infinite;
+}
+.loader::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  animation: prixClipFix 2s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes prixClipFix {
+  0% {
+    clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0);
+  }
+  25% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0);
+  }
+  50% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%);
+  }
+  75% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%);
+  }
+  100% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+}
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.partner-container {
+  display: flex;
+  animation: scroll 20s linear infinite; /* adjust timing as per your requirement */
+}
+
+.partner-item {
+  flex: 0 0 auto;
+}
+
+.marquee-container {
+  overflow: hidden;
+}
+
+.marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee {
+  white-space: nowrap;
+  display: block;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee img {
+  display: inline-block;
+  /* padding: 0 20px; */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.bg-image {
+  background-image: url("../../public/DJI_0893.png"); /* Ganti link_gambar.jpg dengan URL gambar yang Anda inginkan */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Gambar tetap saat digulir */
+  height: 30vh; /* Sesuaikan tinggi dengan kebutuhan Anda */
+  width: 100%; /* Gunakan lebar penuh */
+  position: relative;
+  overflow: hidden;
+  /* -webkit-transform: translate3d(0, 0, 0);  */
+}
+
+.bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Ubah opasitas latar belakang di sini */
+}
+
+.scroll-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+/* Animasi */
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.scroll-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  animation: scroll 10s linear infinite; /* Ubah kecepatan dan jenis animasi di sini */
+}
+
+.hero-image-gradient {
+  background: linear-gradient(0deg, rgba(37,37,37,1) 0%, rgba(255,255,255,1) 100%);
+  z-index: 100;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.modal-header {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.modal-header h3 {
+  margin: 0;
+}
+
+.modal-header button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-body {
+  margin-bottom: 10px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .modal-footer button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+/* .modal-footer button:hover {
+  background-color: #0056b3;
+} */

@@ -32,7 +32,7 @@ const Page = () => {
               layout="fill"
               objectFit="cover"
             />
-            <div className="absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
+            <div className="absolute  mt-16 sm:mt-10 z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
               <p className="lg:text-4xl text-3xl font-bold py-2 text-center capitalize">
                 FRESH BETON INDONESIA X FARRACON PRECAST INDUSTRI
               </p>
@@ -66,7 +66,7 @@ const Page = () => {
           comprehensive range of precast concrete solutions tailored to meet the
           specific needs of construction projects.
         </article>
-        <p className="lg:text-4xl text-3xl py-2 font-bold text-green-600 text-center capitalize">
+        <p className="lg:text-4xl text-3xl py-2 font-bold text-green-500 text-center capitalize">
           OUR OFFERING
         </p>
         <article className="text-justify text-black text-lg capitalize">

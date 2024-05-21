@@ -61,7 +61,7 @@ const AboutSection = () => {
       ref={sectionRef}
       className="bg-white pt-4  items-center justify-center "
     >
-      <h1 className="font-bold text-center text-green-600 lg:text-[3rem] text-[1.5rem]">
+      <h1 className="font-bold text-center text-green-500 lg:text-[3rem] text-[1.5rem]">
         Fresh Beton Indonesia
       </h1>
       <div className="flex flex-col gap-7 justify-center items-center md:flex-row container">

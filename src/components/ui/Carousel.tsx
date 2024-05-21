@@ -3,7 +3,45 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
 
+
+
 const CarouselHero = () => {
+   // Custom function to render the indicators
+   const customIndicator = (
+    onClickHandler: (e: React.MouseEvent | React.KeyboardEvent) => void,
+    isSelected: boolean,
+    index: number,
+    label: string
+  ) => {
+    const defStyle = {
+      marginLeft: 8,
+      marginRight: 8,
+      cursor: 'pointer',
+      backgroundColor: isSelected ? '#22c55e' : '#ffffff',
+      height: 5,
+      // width: 30,
+      width: isSelected ? 50 : 30,
+      borderRadius: 4,
+      // paddingBottom : 2, 
+      marginBottom : 5, 
+      display: 'inline-block',
+      transition: 'background-color 0.3s ease',
+    };
+
+    return (
+      <div
+        style={defStyle}
+        onClick={onClickHandler}
+        onKeyDown={onClickHandler}
+        // value={index}
+        key={index}
+        role="button"
+        tabIndex={0}
+        aria-label={`${label} ${index + 1}`}
+      />
+    );
+  };
+
   return (
     <section className="pt-[70px] sm:pt-0">
       <Carousel
@@ -14,6 +52,8 @@ const CarouselHero = () => {
         stopOnHover={true}
         swipeable={true}
         interval={2000}
+        // renderIndicator={() => null}
+        renderIndicator={customIndicator}
       >
         <div className="text-center text-white relative">
           <div className="absolute inset-0 z-0 h-[400px] w-full flex pb-[200px] sm:pb-[350px] lg:pb-[550px] items-center justify-center">

@@ -76,7 +76,7 @@ const Page = () => {
         </article>
       </div>
       <ServicesSection />
-      <div className="gap-10 flex flex-wrap justify-center pb-5 relative z-10">
+      <div className="gap-5 flex flex-wrap justify-center pb-5 relative z-10">
         {ReadyMixData.map((readymix) => (
           <Card key={readymix.id} readymix={readymix} />
         ))}

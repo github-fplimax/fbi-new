@@ -76,7 +76,7 @@ const Page = () => {
           Super Long Boom, and Extra Double Super Long Boom
         </article>
       </div>
-      <div className="gap-10 flex flex-wrap justify-center pb-5 relative z-10">
+      <div className="gap-5 flex flex-wrap justify-center pb-5 relative z-10">
         {ConcretePumpData.map((concrete) => (
           <Card key={concrete.id} concretepump={concrete} />
         ))}

@@ -72,7 +72,7 @@ const Page = () => {
           Available for both rental and purchase
         </article>
       </div>
-      <div className="gap-10 flex flex-wrap justify-center pb-5 relative z-10">
+      <div className="gap-5 flex flex-wrap justify-center pb-5 relative z-10">
         {BatchPumpData.map((BatchPump) => (
           <Card key={BatchPump.id} BatchPump={BatchPump} />
         ))}

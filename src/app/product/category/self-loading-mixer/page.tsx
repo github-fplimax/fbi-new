@@ -75,7 +75,7 @@ const Page = () => {
           FLSCM 4000, FLSCM 5500, FLSCM 6000.
         </article>
       </div>
-      <div className="gap-10 flex flex-wrap justify-center pb-5 relative z-10">
+      <div className="gap-5 flex flex-wrap justify-center pb-5 relative z-10">
         {BatchingPlantData.map((batching) => (
           <Card key={batching.id} batching={batching} />
         ))}

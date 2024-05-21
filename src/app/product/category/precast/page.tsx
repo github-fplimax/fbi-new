@@ -83,7 +83,7 @@ const Page = () => {
           grades and custom designs to suit different construction requirements.
         </article>
       </div>
-      <div className="gap-10 flex flex-wrap justify-center pb-5 relative z-10">
+      <div className="gap-5 flex flex-wrap justify-center pb-5 relative z-10">
         {PrecastData.map((precast) => (
           <Card key={precast.id} precast={precast} />
         ))}

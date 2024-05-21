@@ -73,7 +73,7 @@ const Page = () => {
           We offer range of models such as Mini Beton
         </article>
       </div>
-      <div className="gap-10 flex flex-wrap justify-center pb-5 relative z-10">
+      <div className="gap-5 flex flex-wrap justify-center pb-5 relative z-10">
         {TruckMixerData.map((truckmixer) => (
           <Card key={truckmixer.id} truckmixer={truckmixer} />
         ))}

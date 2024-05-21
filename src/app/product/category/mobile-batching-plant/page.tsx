@@ -81,7 +81,7 @@ const Page = () => {
           with service acceleration ranging from 3 days to 7 days.
         </article>
       </div>
-      <div className="gap-10 flex flex-wrap justify-center pb-5 relative z-10">
+      <div className="gap-5 flex flex-wrap justify-center pb-5 relative z-10">
         {MobileBatchingPlantData.map((mobilebatch) => (
           <Card key={mobilebatch.id} mobilebatch={mobilebatch} />
         ))}

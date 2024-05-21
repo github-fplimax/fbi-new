@@ -42,7 +42,11 @@ const Page = () => {
               layout="fill"
               objectFit="cover"
             />
-            
+            <div className="absolute z-10 mt-16 sm:mt-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
+              <p className="lg:text-4xl text-3xl font-bold py-2 text-center capitalize">
+                Product & Service
+              </p>
+            </div>
           </div>
           <div className="mx-4 sm:hidden block sm:mx-8 md:mx-20 lg:mx-32 xl:mx-44 text-justify pt-[200px] sm:pt-[350px] lg:pt-[550px] w-screen">
             <span className="font-bold pt-4">PT. Fresh Beton Indonesia</span> is
@@ -53,7 +57,12 @@ const Page = () => {
             and equipment to the industry over the last 25 years.
           </div>
         </div>
-        <div className="container sm:pt-[600px] pt-10 mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 py-10">
+        <p className="text-center leading-tight pt-10 sm:pt-[600px] text-black text-sm font-bold lg:font-bold capitalize">
+          Explore our product offerings from ready mix concrete supply to mobile
+          batching plant hire, all our product can be tailored to your service.
+          We supply both retail and long term project.
+        </p>
+        <div className="container   mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 py-10">
           {/* Product 1 */}
           <div className="flex flex-col justify-center items-center">
             <Image
@@ -69,7 +78,7 @@ const Page = () => {
             {/* <p className="text-[#6B7280] text-base mb-4">
               Ready mix concrete is a type of concrete that has been industrially produced in specialized factories using modern equipment and technology.
             </p> */}
-            <button className="text-white bg-green-500 hover:bg-green-600 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
+            <button className="text-white bg-[#252525] hover:bg-green-500 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
               <Link href="/product/category/ready-mix-concrete">Read More</Link>
             </button>
           </div>
@@ -88,7 +97,7 @@ const Page = () => {
             {/* <p className="text-[#6B7280] text-base mb-4">
               Concrete pump is a tool used to transport concrete from the mixing plant to the desired construction project site.
             </p> */}
-            <button className="text-white bg-green-500 hover:bg-green-600 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
+            <button className="text-white bg-[#252525] hover:bg-green-500 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
               <Link href="/product/category/concrete-pump">Read More</Link>
             </button>
           </div>
@@ -107,7 +116,7 @@ const Page = () => {
             {/* <p className="text-[#6B7280] text-base mb-4">
               The precast method allows the manufacture of elements with high and consistent quality, as environmental conditions in the factory are controlled than in the field.
             </p> */}
-            <button className="text-white bg-green-500 hover:bg-green-600 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
+            <button className="text-white bg-[#252525] hover:bg-green-500 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
               <Link href="/product/category/precast">Read More</Link>
             </button>
           </div>
@@ -126,7 +135,7 @@ const Page = () => {
             {/* <p className="text-[#6B7280] text-base mb-4">
               A concrete plant, also known as a batch plant or batching plant or a concrete batching plant, is equipment that combines various ingredients to form concrete.
             </p> */}
-            <button className="text-white bg-green-500 hover:bg-green-600 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
+            <button className="text-white bg-[#252525] hover:bg-green-500 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
               <Link href="/product/category/batching-plant">Read More</Link>
             </button>
           </div>
@@ -145,7 +154,7 @@ const Page = () => {
             {/* <p className="text-[#6B7280] text-base mb-4">
               Mobile batching plant is a type of batching plant designed to be moved from one project site to another easily.
             </p> */}
-            <button className="text-white bg-green-500 hover:bg-green-600 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
+            <button className="text-white bg-[#252525] hover:bg-green-500 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
               <Link href="/product/category/mobile-batching-plant">
                 Read More
               </Link>
@@ -166,7 +175,7 @@ const Page = () => {
             {/* <p className="text-[#6B7280] text-base mb-4">
               Mobile batching plant is a type of batching plant designed to be moved from one project site to another easily.
             </p> */}
-            <button className="text-white bg-green-500 hover:bg-green-600 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
+            <button className="text-white bg-[#252525] hover:bg-green-500 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
               <Link href="/product/category/mobile-batching-plant">
                 Read More
               </Link>
@@ -187,7 +196,7 @@ const Page = () => {
             {/* <p className="text-[#6B7280] text-base mb-4">
               Mobile batching plant is a type of batching plant designed to be moved from one project site to another easily.
             </p> */}
-            <button className="text-white bg-green-500 hover:bg-green-600 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
+            <button className="text-white bg-[#252525] hover:bg-green-500 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
               <Link href="/product/category/mobile-batching-plant">
                 Read More
               </Link>
@@ -208,7 +217,7 @@ const Page = () => {
             {/* <p className="text-[#6B7280] text-base mb-4">
               Mobile batching plant is a type of batching plant designed to be moved from one project site to another easily.
             </p> */}
-            <button className="text-white bg-green-500 hover:bg-green-600 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
+            <button className="text-white bg-[#252525] hover:bg-green-500 transition-all py-1 px-2 rounded-md focus:outline-none capitalize">
               <Link href="/product/category/mobile-batching-plant">
                 Read More
               </Link>

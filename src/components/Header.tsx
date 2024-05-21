@@ -170,7 +170,7 @@ const Header = () => {
           <List size={32} />
         </button>
 
-        <div className="flex items-center pl-10 lg:hidden">
+        <div className="flex items-center justify-center pl-10 lg:hidden">
           <Link href="/">
             <Image src='/FRESH BETON INDONESIA copy.png' alt="Logo" width={50} height={50} />
           </Link>

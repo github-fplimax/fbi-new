@@ -29,12 +29,12 @@ const Card = ({ portfolio }: { portfolio: (typeof PortfolioData)[number] }) => {
           {portfolio.id}
         </p> */}
       </div>
-      <div className="flex flex-col justify-between text-center p-4 w-full">
+      <div className="flex flex-col justify-between text-center w-full">
         <div>
-          <h1 className="truncate capitalize text-black sm:text-lg text-xs font-semibold mb-2">
+          <h1 className="capitalize text-black sm:text-sm text-xs text-wrap mb-2">
             {portfolio.name}
           </h1>
-          <p className="truncate italic capitalize  sm:text-lg text-xs text-black mb-1">
+          <p className="italic capitalize text-wrap sm:text-sm text-xs text-black mb-1 font-thin">
             {portfolio.description}
           </p>
         </div>

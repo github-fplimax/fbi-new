@@ -6,11 +6,11 @@ import Link from "next/link";
 
 const AboutSection = () => {
   const [counters, setCounters] = useState([
-    { name: "Years Experience", current: 0, max: 900, increaseFactor: 25 },
+    { name: "Years Experience", current: 0, max: 22, increaseFactor: 25 },
     { name: "Completed Projects", current: 0, max: 2000, increaseFactor: 25 },
     { name: "Batching Plants", current: 0, max: 7, increaseFactor: 1 },
     { name: "Operating Units", current: 0, max: 100, increaseFactor: 25 },
-    { name: "Satified Clients", current: 0, max: 22, increaseFactor: 2 },
+    { name: "Satified Clients", current: 0, max: 900, increaseFactor: 2 },
   ]);
 
   const sectionRef = useRef<HTMLDivElement>(null);

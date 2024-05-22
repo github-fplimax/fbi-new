@@ -86,7 +86,7 @@ const ContactSection = () => {
                 target="_blank"
                 title="Open in WhatsApp"
               >
-                0815 7474 7474
+                0815 7545 3564
               </Link>
             </li>
             <li className="flex flex-row justify-center items-center hover:text-green-500 transition-all ">
@@ -95,7 +95,7 @@ const ContactSection = () => {
                 target="_blank"
                 title="Open in WhatsApp"
               >
-                0815 7545 3524
+                0812 8842 432
               </Link>
             </li>
           </ul>

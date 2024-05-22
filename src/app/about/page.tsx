@@ -162,18 +162,18 @@ const Page = () => {
             <h1 className="capitalize text-center text-2xl sm:text-3xl mb-4 text-green-500">
               certificate ISO
             </h1>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-9">
+            <div className="flex flex-row sm:w-full w-40 items-center justify-center gap-9">
               <Image
                 src={isoImage}
                 alt=""
-                className="disableRightClick"
+                className="disableRightClick border border-green-500"
                 width={200}
                 height={200}
               />
               <Image
                 src={isoImage9001}
                 alt=""
-                className="disableRightClick"
+                className="disableRightClick border border-green-500"
                 width={200}
                 height={200}
               />

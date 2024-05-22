@@ -31,7 +31,7 @@ const Card = ({ portfolio }: { portfolio: (typeof PortfolioData)[number] }) => {
       </div>
       <div className="flex flex-col justify-between text-center w-full">
         <div>
-          <h1 className="capitalize text-black sm:text-sm text-xs text-wrap mb-2">
+          <h1 className="capitalize pt-2 font-semibold text-black sm:text-sm text-xs text-wrap mb-2">
             {portfolio.name}
           </h1>
           <p className="italic capitalize text-wrap sm:text-sm text-xs text-black mb-1 font-thin">

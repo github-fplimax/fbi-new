@@ -23,7 +23,7 @@ const CarouselHero = () => {
       width: isSelected ? 50 : 30,
       borderRadius: 4,
       // paddingBottom : 2, 
-      marginBottom : 5, 
+      // marginBottom : 5, 
       display: 'inline-block',
       transition: 'background-color 0.3s ease',
     };

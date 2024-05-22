@@ -94,15 +94,7 @@ const SearchBar = () => {
                     className="hover:text-green-500 capitalize transition-all"
                     key={result.id}
                   >
-                    <Link href={result.url}>
-                      {result.title}
-                    </Link>
-                    {/* <li
-                      className="font-bold text-black bg-green-500 hover:text-white"
-                      key={result.id}
-                    >
-                      {result.category}
-                    </li> */}
+                    <Link href={result.url} title={result.title}>{result.title}</Link>
                   </li>
                 ))}
               </ul>

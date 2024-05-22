@@ -4,223 +4,190 @@ export const SearchBarData = [
     id: 1,
     title: "Concrete Pump Terpanjang di Indonesia",
     category: "article",
-    url: "/article/detail/1"
+    url: "/article/detail/1",
   },
   {
     id: 2,
-    title: "Concrete Pump (Pompa Beton), Mesin Raksasa Pembantu Proses Pengecoran Beton",
+    title:
+      "Concrete Pump (Pompa Beton), Mesin Raksasa Pembantu Proses Pengecoran Beton",
     category: "article",
-    url: "/article/detail/2"
+    url: "/article/detail/2",
   },
   {
     id: 3,
     title: "Readymix Berkualitas Jakarta",
     category: "article",
-    url: "/article/detail/3"
+    url: "/article/detail/3",
   },
   {
     id: 4,
     title: "Fungsi Penting Batching Plant dalam Konstruksi",
     category: "article",
-    url: "/article/detail/4"
+    url: "/article/detail/4",
   },
   {
     id: 5,
     title: "Jenis Jenis Concrete Pump",
     category: "article",
-    url: "/article/detail/5"
+    url: "/article/detail/5",
   },
   {
     id: 6,
     title: "Batch Pump, All In One Dalam Pengecoran",
     category: "article",
-    url: "/article/detail/6"
+    url: "/article/detail/6",
   },
   // location
   {
     id: 7,
     title: "Plant fresh beton indonesia meruya",
     category: "location",
-    url: "/article/detail/7"
+    url: "/location/detail/1",
   },
   {
     id: 8,
     title: "Plant fresh beton indonesia sentul",
     category: "location",
-    url: "/article/detail/8"
+    url: "/location/detail/2",
   },
   {
     id: 9,
     title: "Plant fresh beton indonesia cianjur",
     category: "location",
-    url: "/article/detail/9"
+    url: "/location/detail/3",
   },
   {
     id: 10,
     title: "Plant fresh beton indonesia sukabumi",
     category: "location",
-    url: "/article/detail/10"
+    url: "/location/detail/4",
   },
   {
     id: 11,
     title: "Plant fresh beton indonesia serpong",
     category: "location",
-    url: "/article/detail/11"
+    url: "/location/detail/5",
   },
   {
     id: 12,
     title: "Plant fresh beton indonesia cikembang",
     category: "location",
-    url: "/article/detail/12"
+    url: "/location/detail/6",
   },
   {
     id: 13,
     title: "Plant fresh beton indonesia balaraja",
     category: "location",
-    url: "/article/detail/13"
-  },
-  //product
-  {
-    id: 14,
-    title: 'ready mix concrete',
-    category: "product",
-    url: ""
-  },
-  {
-    id: 15,
-    title: 'cover u-ditch',
-    category: "product",
-    url: ""
-  },
-  {
-    id: 16,
-    title: 'pagar panel',
-    category: "product",
-    url: ""
-  },
-  {
-    id: 17,
-    title: 'u ditch',
-    category: "product",
-    url: ""
-  },
-  {
-    id: 18,
-    title: 'precast',
-    category: "product",
-    url: ""
+    url: "/location/detail/7",
   },
   // portfolio
   {
-    id: 19,
-    title: 'PLTS Cirata',
+    id: 14,
+    title: "PLTS Cirata",
     category: "portfolio",
-    url: ""
+    url: "/portfolio/detail/1",
+  },
+  {
+    id: 15,
+    title: "cimory dairyland",
+    category: "portfolio",
+    url: "/portfolio/detail/2",
+  },
+  {
+    id: 16,
+    title: "Cluster jakarta selatan",
+    category: "portfolio",
+    url: "/portfolio/detail/3",
+  },
+  {
+    id: 17,
+    title: "ariandri hotel and resort",
+    category: "portfolio",
+    url: "/portfolio/detail/4",
+  },
+  {
+    id: 18,
+    title: "rancamaya residence",
+    category: "portfolio",
+    url: "/portfolio/detail/5",
+  },
+  {
+    id: 19,
+    title: "safari journey - taman safari",
+    category: "portfolio",
+    url: "/portfolio/detail/6",
   },
   {
     id: 20,
-    title: 'cimory dairyland',
+    title: "hermina hospital",
     category: "portfolio",
-    url: ""
+    url: "/portfolio/detail/7",
   },
   {
     id: 21,
-    title: 'Cluster jakarta selatan',
+    title: "assyifa hospital",
     category: "portfolio",
-    url: ""
+    url: "/portfolio/detail/8",
   },
   {
     id: 22,
-    title: 'ariandri hotel and resort',
+    title: "kodam jaya jayakarta",
     category: "portfolio",
-    url: ""
-  },
-  {
-    id: 23,
-    title: 'rancamaya residence',
-    category: "portfolio",
-    url: ""
-  },
-  {
-    id: 24,
-    title: 'safari journey - taman safari',
-    category: "portfolio",
-    url: ""
-  },
-  {
-    id: 25,
-    title: 'hermina hospital',
-    category: "portfolio",
-    url: ""
-  },
-  {
-    id: 26,
-    title: 'assyifa hospital',
-    category: "portfolio",
-    url: ""
-  },
-  {
-    id: 27,
-    title: 'kodam jaya jayakarta',
-    category: "portfolio",
-    url: ""
+    url: "/portfolio/detail/9",
   },
   // product page
   {
-    id: 28,
-    title: 'ready mix concrete',
+    id: 23,
+    title: "ready mix concrete",
     category: "product",
-    url: "/product/category/ready-mix-concrete"
+    url: "/product/category/ready-mix-concrete",
+  },
+  {
+    id: 24,
+    title: "concrete pump",
+    category: "product",
+    url: "/product/category/concrete-pump",
+  },
+  {
+    id: 25,
+    title: "precast",
+    category: "product",
+    url: "/product/category/precast",
+  },
+  {
+    id: 26,
+    title: "precast",
+    category: "product",
+    url: "/product/category/precast",
+  },
+  {
+    id: 27,
+    title: "batching plant",
+    category: "product",
+    url: "/product/category/batching-plant",
+  },
+  {
+    id: 28,
+    title: "mobile batching plant",
+    category: "product",
+    url: "/product/category/mobile-batching-plant",
   },
   {
     id: 29,
-    title: 'concrete pump',
+    title: "mobile batching plant",
     category: "product",
-    url: "/product/category/concrete-pump"
+    url: "/product/category/mobile-batching-plant",
   },
   {
     id: 30,
-    title: 'precast',
+    title: "self loading mixer",
     category: "product",
-    url: "/product/category/precast"
+    url: "/product/category/self-loading-mixer",
   },
   {
     id: 31,
-    title: 'precast',
+    title: "batch pump",
     category: "product",
-    url: "/product/category/precast"
-  },
-  {
-    id: 32,
-    title: 'batching plant',
-    category: "product",
-    url: "/product/category/batching-plant"
-  },
-  {
-    id: 33,
-    title: 'mobile batching plant',
-    category: "product",
-    url: "/product/category/mobile-batching-plant"
-  },
-  {
-    id: 34,
-    title: 'mobile batching plant',
-    category: "product",
-    url: "/product/category/mobile-batching-plant"
-  },
-  {
-    id: 35,
-    title: 'self loading mixer',
-    category: "product",
-    url: "/product/category/self-loading-mixer"
-  },
-  {
-    id: 36,
-    title: 'batch pump',
-    category: "product",
-    url: "/product/category/batch-pump"
+    url: "/product/category/batch-pump",
   },
 ] as const;
-
-
-

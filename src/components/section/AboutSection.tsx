@@ -95,31 +95,36 @@ const AboutSection = () => {
       <div className="bg-image flex items-center justify-center">
         <div className="gap-6 block sm:hidden z-20 text-white">
           {/* mobile */}
-          <div className="grid pt-6 grid-cols-2 sm:grid-cols-3 items-center justify-center sm:w-full w-72">
-            {/* Bagian atas */}
+          <div className="grid pt-6 grid-cols-2 gap-x-6 items-center justify-center sm:w-full w-72">
+            {/* Bagian atas pl-[60px] sm:pl-0 pl-10 sm:pl-0 */}
             {counters.slice(0, 2).map((counter, index) => (
-              <div key={index} className="text-center">
-                <p className="w-3 pl-[60px] sm:pl-0 transition-all text-2xl sm:text-4xl font-bold">
-                  {counter.current}+
-                </p>
-                <p className="w-3 pl-10 sm:pl-0 text-center flex items-center text-sm font-medium sm:text-xl">
-                  {counter.name}
-                </p>
-              </div>
-            ))}
-          </div>
-          <div className="grid grid-cols-3  py-8  sm:hidden items-center justify-between w-72">
-            {/* Bagian bawah */}
-            {counters.slice(2, 5).map((counter, index) => (
-              <div key={index} className="text-center">
+              <div
+                key={index}
+                className="text-center mx-auto container flex flex-col items-center justify-center"
+              >
                 <p className="transition-all text-2xl sm:text-4xl font-bold">
                   {counter.current}+
                 </p>
-                <p className="text-sm  sm:text-xl">{counter.name}</p>
+                <p className="text-sm font-medium sm:text-xl">{counter.name}</p>
+              </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-3 gap-x-6 py-8 items-center justify-center w-72">
+            {/* Bagian bawah */}
+            {counters.slice(2, 5).map((counter, index) => (
+              <div
+                key={index}
+                className="text-center flex flex-col items-center justify-center"
+              >
+                <p className="transition-all text-2xl sm:text-4xl font-bold">
+                  {counter.current}+
+                </p>
+                <p className="text-sm sm:text-xl">{counter.name}</p>
               </div>
             ))}
           </div>
         </div>
+
         {/* desktop */}
         <div className="gap-6 sm:block hidden z-20 text-white">
           <div className="flex items-center justify-center">
